@@ -88,7 +88,7 @@ public class Code {
             i++;
             for (int j = 0; j < def.operandNum; j++) {
                 byte oprand = instructions.get(i+j);
-                sb.append(oprand);
+                sb.append(oprand+ "  ");
                 i++;
             }
 

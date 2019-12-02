@@ -223,6 +223,7 @@ public class Vm {
                     this.currentFrame().ip += 1;
                     Closure currentClosure = this.currentFrame().cl;
                     push(currentClosure.free[freeIndex]);
+                    break;
             }
         }
     }
